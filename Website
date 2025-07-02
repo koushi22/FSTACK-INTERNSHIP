@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lulu Mall</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Lulu Mall</h1>
+      <ul>
+        <li><a href="#stores">Stores</a></li>
+        <li><a href="#food">Food Court</a></li>
+        <li><a href="#events">Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Lulu Mall 🎉</h2>
+    <p>Your one-stop destination for shopping, food & fun!</p>
+    <button onclick="scrollToSection('stores')">Explore Now</button>
+  </section>
+
+  <section id="stores" class="section">
+    <h3>Top Brands</h3>
+    <div class="cards">
+      <div class="card">Zara</div>
+      <div class="card">H&M</div>
+      <div class="card">Nike</div>
+    </div>
+  </section>
+
+  <section id="food" class="section">
+    <h3>Food Court</h3>
+    <div class="cards">
+      <div class="card">KFC</div>
+      <div class="card">Subway</div>
+      <div class="card">Starbucks</div>
+    </div>
+  </section>
+
+  <section id="events" class="section">
+    <h3>Upcoming Events</h3>
+    <ul class="events">
+      <li>DJ Night – July 5th</li>
+      <li> Kids Carnival – July 10th</li>
+      <li> Mega Sale – July 15th</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lulu Mall. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

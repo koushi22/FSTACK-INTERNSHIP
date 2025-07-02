@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Domain Submit Form</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #fdfbfb, #ebedee);
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 50px 100px;
+      min-height: 100vh;
+    }
+
+    .form-container {
+      max-width: 400px;
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 30px;
+      font-size: 28px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      margin: 12px 0 6px;
+      color: #34495e;
+      font-size: 18px;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+      padding: 10px 15px;
+      width: 100%;
+      border: 2px solid #dcdde1;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    input[type="text"]:focus,
+    input[type="number"]:focus {
+      border-color: #6c5ce7;
+      box-shadow: 0 0 8px rgba(108, 92, 231, 0.3);
+      outline: none;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 12px 25px;
+      background-color: #6c5ce7;
+      border: none;
+      color: white;
+      font-size: 17px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-shadow: 2px 2px 12px rgba(108, 92, 231, 0.2);
+    }
+
+    button:hover {
+      background-color: #5a4cd3;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>DOMAIN SUBMIT FORM</h1>
+
+    <h2>Name:</h2>
+    <label>
+      <input type="text" placeholder="Enter your name" />
+    </label>
+
+    <h2>Age:</h2>
+    <label>
+      <input type="number" placeholder="Enter your age" />
+    </label>
+
+    <h2>Email:</h2>
+    <label>
+      <input type="text" placeholder="Enter your email" />
+    </label>
+
+    <h2>Domain:</h2>
+    <label>
+      <input type="text" placeholder="Enter your domain" />
+    </label>
+
+    <button onclick="alert('Form submitted successfully! 🎉')">SUBMIT</button>
+  </div>
+</body>
+</html>
